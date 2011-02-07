@@ -16,6 +16,14 @@ $('.widget').widgetize([options]);
 
 @options@ is an object of options.
 
+h2. Options Summary
+
+* clickable: boolean
+	Whether or not the widget should be "clickable." Setting an
+	on-click handler is left as an exercise to the developer. This
+	option only sets up the handlers to make the widget "feel"
+	clickable from a UE perspective. Default: true
+
 h2. LICENSE
 
 Copyright (c) 2011 Aaron Fellin
