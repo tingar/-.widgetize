@@ -44,7 +44,10 @@
 				.addClass('widgetize-container ui-helper-clearfix')
 				.appendTo($helper);
 
-			$helper.appendTo($body).bgiframe();
+			$helper.appendTo($body);
+			if ('undefined' !== typeof($helper.bgiframe)) {
+				$helper.bgiframe();
+			}
 		}
 
 		return $(this).each(function() {
