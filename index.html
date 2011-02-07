@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Widgetizer!</title>
+		<link rel="stylesheet" type="text/css" href="css/widgetize.css" />
+		<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+		<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+		<script language="javascript" type="text/javascript" src="js/widgetize.js"></script>
+		<script language="javascript" type="text/javascript">
+(function($) {
+$(function() {
+	$('div.widget').widgetize();
+	$('#widget3').widgetize({clickable: false});
+});
+})(jQuery);
+		</script>
+	<head>
+	<body>
+		<div id="widget1" class="widget">This is a widget.</div>
+		<div id="widget2" class="widget">This is another widget.</div>
+		<div id="widget3">This widget not clickable.</div>
+	</body>
+</html>
