@@ -1,3 +1,8 @@
+h2. Disclaimer
+
+This plugin is properly called '$.widgetize'; github does not allow $
+in the repository name.
+
 h2. Summary
 
 Provides a widget bar at the bottom of the screen, a la Facebook's
