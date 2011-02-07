@@ -1,18 +1,17 @@
-Summary
-=======
+h2. Summary
 
 Provides a widget bar at the bottom of the screen, a la Facebook's
 chat system.
 
-Usage
-=====
+h2. Usage
 
-	$('.widget').widgetize([options]);
+<pre><code class="javascript">
+$('.widget').widgetize([options]);
+</code></pre>
 
-`options` is an object of options.
+@options@ is an object of options.
 
-license
-=======
+h2. LICENSE
 
 Copyright (c) 2011 Aaron Fellin
 
