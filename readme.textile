@@ -16,7 +16,12 @@ $('.widget').widgetize([options]);
 
 @options@ is an object of options.
 
-h1. Options Summary
+h2. Dependencies
+
+This is a plugin for jQuery, and so depends on that. It is compatible
+with, but does not inherently rely on, jQuery UI theming.
+
+h2. Options Summary
 
 * clickable: boolean
 	Whether or not the widget should be "clickable." Setting an
