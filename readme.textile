@@ -1,14 +1,14 @@
-h2. Disclaimer
+h1. Disclaimer
 
 This plugin is properly called '$.widgetize'; github does not allow $
 in the repository name.
 
-h2. Summary
+h1. Summary
 
 Provides a widget bar at the bottom of the screen, a la Facebook's
 chat system.
 
-h2. Usage
+h1. Usage
 
 <pre><code class="javascript">
 $('.widget').widgetize([options]);
@@ -16,7 +16,7 @@ $('.widget').widgetize([options]);
 
 @options@ is an object of options.
 
-h2. Options Summary
+h1. Options Summary
 
 * clickable: boolean
 	Whether or not the widget should be "clickable." Setting an
@@ -24,7 +24,7 @@ h2. Options Summary
 	option only sets up the handlers to make the widget "feel"
 	clickable from a UE perspective. Default: true
 
-h2. LICENSE
+h1. LICENSE
 
 Copyright (c) 2011 Aaron Fellin
 
